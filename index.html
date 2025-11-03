@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SW#2</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css">
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
+</head>
+<body>
+    <py-script src="main.py"></py-script>
+
+    <h1>Student Grade Calculator</h1>
+
+    <input id="fname" placeholder="First Name">
+    <input id="lname" placeholder="Last Name">
+    <hr>
+
+    <label for="sci">Science:</label>
+    <input id="sci"><br>
+
+    <label for="eng">English:</label>
+    <input id="eng"><br>
+
+    <label for="ict">ICT:</label>
+    <input id="ict"><br>
+
+    <label for="math">Math:</label>
+    <input id="math"><br>
+
+    <label for="fil">Filipino:</label>
+    <input id="fil"><br>
+
+    <label for="pe">P.E.:</label>
+    <input id="pe"><br>
+
+    <button py-click="do_calc">Calculate</button>
+
+    <div id="output"></div>
+</body>
+</html>
